@@ -3,7 +3,6 @@ require 'pry'
 class Dog
 
   @@all=[]
-  @@name
 
   attr_accessor :name
 
@@ -29,7 +28,7 @@ end
     # binding.pry
   def save
     # binding.pry
-    @@all<< @@name
+    @@all<< @name
   end
 
 end
