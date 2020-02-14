@@ -28,7 +28,7 @@ end
     # binding.pry
   def save
     # binding.pry
-    @@all<< Dog.class
+    @@all<< Dog.new
   end
 
 end
