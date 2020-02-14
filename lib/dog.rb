@@ -26,7 +26,7 @@ class Dog
   end
 end
     def save
-      @@all<< @name.all
+      @@all<< name
   end
 
 end
