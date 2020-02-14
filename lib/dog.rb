@@ -3,6 +3,7 @@ require 'pry'
 class Dog
 
   @@all=[]
+  @@name= @name
 
   attr_accessor :name
 
