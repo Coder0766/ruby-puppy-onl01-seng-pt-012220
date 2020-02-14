@@ -28,7 +28,7 @@ end
     binding.pry
   def save
     binding.pry
-    @@all<< @name= "name"
+    @@all<< @name= name
   end
 
 end
