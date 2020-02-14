@@ -28,7 +28,7 @@ end
     # binding.pry
   def save
     # binding.pry
-  self.new
+  self
   end
 
 end
