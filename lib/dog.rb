@@ -30,6 +30,7 @@ end
   def save
     # binding.pry
     @save= save
+    @@all< self.save
   end
 
 end
