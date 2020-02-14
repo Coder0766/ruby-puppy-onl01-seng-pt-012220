@@ -25,8 +25,10 @@ class Dog
     puts dogs_moniker.name.to_s
   end
 end
-    def save
-      @@all<< @name= "name"
+    binding.pry
+  def save
+    binding.pry
+    @@all<< @name= "name"
   end
 
 end
