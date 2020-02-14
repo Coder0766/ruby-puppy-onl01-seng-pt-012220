@@ -27,9 +27,9 @@ class Dog
     puts dogs_moniker.name.to_s
   end
 end
-    binding.pry
+    # binding.pry
   def save
-    binding.pry
+    # binding.pry
     @@all<< @@name
   end
 
