@@ -29,7 +29,7 @@ end
     # binding.pry
   def save
     # binding.pry
-    @@all<< self.save
+    self.save= save
   end
 
 end
